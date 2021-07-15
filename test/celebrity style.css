@@ -1,0 +1,449 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 3.6rem;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0rem;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0rem;
+    left:0rem;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    margin-left: 1.25rem;
+    padding: 1.1rem 1.1rem;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.5rem;
+   
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 0.9rem 1.9rem;
+    border-radius: 1.7rem;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color:white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:0.18rem 12.5rem;
+    height: 745px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('hrx\ 1.jpg') no-repeat center center/cover;
+    height: 828px;
+    top:0rem;
+    left:0rem;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 2.5rem;
+    color: #fff;
+    top: 0rem;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}
+.footer-content h3{
+    font-size: 2.9rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 31.25rem;
+    margin: 0.62rem auto;
+    line-height: 1.75rem;
+    font-size: 1.4rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0.62rem;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.9rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+    transform: scale(1.3,1.3);
+    transition: .3s transform;
+}
+
+.footer-bottom{
+    background-color: #000;
+    width: 100%;
+    padding: 1.25rem 0rem;
+    text-align: center;
+    color: white;
+}
+.footer-bottom p{
+    font-size: 1.4rem;
+    word-spacing: 0.12rem;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+/* Home Section 2*/
+#home-2{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 735px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-2::before{ 
+    content: "";
+    position: absolute;
+    background: url('hrx\ 2.jpg') no-repeat center center/cover;
+    height: 815px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+
+/* bio Section */
+#bio{
+    margin: 34px;
+    display: flex;
+}
+#bio .box{ 
+    border: 2px solid rgb(231, 149, 149);
+    padding: 20px;
+    margin: 2px 10px;
+    border-radius: 28px;
+    background: #dad3d3;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 1000px;
+    width: 480px;
+
+}
+
+#bio .box img{ 
+   height: 220px;
+   margin: auto;
+   display: block;
+   padding: 10px;
+}
+
+#bio .box h2{
+    font-size: 40px;
+}
+
+#bio .box p{
+    font-family: 'Bree Serif', serif;
+    padding: 20px;
+    font-size: 25px;
+} 
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.0rem;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Home Section 2*/
+#home-3{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-3::before{ 
+    content: "";
+    position: absolute;
+    background: url('hrx\ 6.jpg') no-repeat center center/cover;
+    height: 690px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+.mid-bar h1{
+    color:black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.3rem;
+}
+
+.mid-bar p{
+    color:black;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: 'Bree Serif', serif;
+    padding: 20px;
+}
+
+
+
+.home-articles {
+    padding: 18px;
+    background-color: rgb(248, 239, 239, 0.5);
+    margin-top: 23px;
+    position: relative;
+  }
+  
+  .year-box {
+    position: absolute;  
+    right: 0px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 12px;
+  }
+  
+  .year-box div {
+    margin: 12px 0px;
+  }
+  
+  .home-article {
+    display: flex;
+    margin: 25px;
+  }
+  
+  .home-article img {
+    width: 450px;
+  }
+  
+  .home-article-content {
+    align-self: center;
+    padding: 15px;
+    flex-direction: column;
+  }
+  
+  .home-article-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+  }
+
+  .home-article-content a:hover{
+      color: blue;
+  }
+  
+  .home-article-content div,span{
+      font-size: 27px;
+  }
+
+  .home-articles h2{
+      margin-left: 26px;
+      font-size: 50px;
+  }
+
+
+  /* Home Section 4*/
+#home-4{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 950px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-4::before{ 
+    content: "";
+    position: absolute;
+    background: url('hrx\ 12.jpg') no-repeat center center/cover;
+    height: 1030px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+/* Media  */
+
+ main{
+       margin-left: 20px;
+         width: 95%;
+         margin-top: 40px;
+         height: 1700px;
+ }
+ .box-1{
+  width: 25%;
+  float: left;
+  padding: 7px;
+  padding-left: 10px;  
+  display: block;
+ 
+ }
+ 
+ .box-1 img{
+  width: 90%;
+     border-radius: 4px;
+ 
+ }
+ 
+ .box-1 img:hover{
+   transform: scale(1.1,1.1);
+   transition: .3s transform;
+   cursor: pointer;
+ }
+
+ #home-5{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 690px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-5::before{ 
+    content: "";
+    position: absolute;
+    background: url('hrx\ 50.jpg') no-repeat center center/cover;
+    height: 765px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+/* Foundations boxes*/
+
+#found{
+    margin: 34px;
+    display: flex;
+}
+#found .box{ 
+    /* border: 2px solid rgb(8, 8, 8); */
+    padding: 20px;
+    margin: 2px 10px;
+    border-radius: 30px;
+    background: #434141;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    color: white;
+    flex-direction: row;
+}
+
+#found .box img{ 
+   height: 245px;
+   margin: auto;
+   display: block;
+   padding: 20px;
+}
+
+#found .box h3{
+    font-size: 25px;
+}
+
+#found .box p{
+    font-family: 'Bree Serif', serif;
+    padding: 20px;
+    font-size: 20px;
+} 
+
+#found .box:hover{
+    transform: scale(1.1,1.1);
+   transition: .3s transform;
+   cursor: pointer;
+}
+ 
+
+ 
